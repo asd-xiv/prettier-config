@@ -17,8 +17,8 @@
   "type": "module",
   "main": "src/index.json",
   "scripts": {
-    "prerelease": "npm install --no-workspaces --package-lock-only",
-    "release": "semantic-release"
+    "prerelease": "[ -f package-lock.json ] || npm install --no-workspaces --package-lock-only",
+    "release": "semantic-release --no-ci --repository-url \"https://${ASD14_GITHUB_TOKEN}@github.com/asd-xiv/prettier-config.git\""
   },
   "peerDependencies": {
     "prettier": "^3"
