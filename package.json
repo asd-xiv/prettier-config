@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json.schemastore.org/package.json",
+  "name": "@asd14/prettier-config",
+  "version": "0.1.0",
+  "description": "ASD14's reusable Prettier configs",
+  "sideEffects": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asd-xiv/prettier-config.git"
+  },
+  "files": [
+    "src"
+  ],
+  "type": "module",
+  "main": "src/index.json",
+  "peerDependencies": {
+    "prettier": "^3"
+  }
+}
