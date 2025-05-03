@@ -2,7 +2,6 @@
 
 > ASD14's reusable Prettier configuration for consistent code formatting.
 
-
 <!-- vim-markdown-toc GFM -->
 
 * [Installation](#installation)
@@ -18,7 +17,7 @@
 Install via npm:
 
 ```sh
-npm install @asd14/prettier-config
+npm install --save-dev @asd14/prettier-config
 ```
 
 ## Usage
@@ -31,17 +30,23 @@ In your project, extend this config in your `.prettierrc`:
 
 ## Configuration Details
 
-- **Print Width**: 80
-- **Tab Width**: 2
-- **Use Tabs**: false
-- **Semicolons**: false
-- **Quotes**: Double
-- **Trailing Comma**: es5
-- **Bracket Spacing**: true
-- **Brackets on Same Line**: true
-- **Arrow Function Parens**: avoid
-- **Prose Wrap**: always
-- **End of Line**: lf
+```json
+{
+  "printWidth": 80,
+  "tabWidth": 2,
+  "useTabs": false,
+  "semi": false,
+  "singleQuote": false,
+  "quoteProps": "consistent",
+  "jsxSingleQuote": false,
+  "trailingComma": "es5",
+  "bracketSpacing": true,
+  "bracketSameLine": true,
+  "arrowParens": "avoid",
+  "proseWrap": "always",
+  "endOfLine": "lf"
+}
+```
 
 ## Peer Dependency
 
