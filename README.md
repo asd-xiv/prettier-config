@@ -22,7 +22,7 @@ npm install --save-dev @asd14/prettier-config
 
 ## Usage
 
-In your project, extend this config in your `.prettierrc`:
+In your your `.prettierrc`:
 
 ```json
 "@asd14/prettier-config"
