@@ -1,23 +1,24 @@
+[![Release](https://github.com/asd-xiv/prettier-config/actions/workflows/release.yml/badge.svg?branch=main)](https://github.com/asd-xiv/prettier-config/actions/workflows/release.yml)
+[![npm version](https://img.shields.io/npm/v/@asd14/prettier-config.svg)](https://www.npmjs.com/package/@asd14/prettier-config)
+
 # @asd14/prettier-config
 
-> ASD14's reusable Prettier configuration for consistent code formatting.
+> ASD14's reusable Prettier configuration.
 
 <!-- vim-markdown-toc GFM -->
 
 * [Installation](#installation)
 * [Usage](#usage)
 * [Configuration Details](#configuration-details)
-* [Peer Dependency](#peer-dependency)
+* [Peer dependencies](#peer-dependencies)
 * [License](#license)
 
 <!-- vim-markdown-toc -->
 
 ## Installation
 
-Install via npm:
-
 ```sh
-npm install --save-dev @asd14/prettier-config
+npm install --save-dev @asd14/prettier-config prettier@^3
 ```
 
 ## Usage
@@ -48,9 +49,15 @@ In your your `.prettierrc`:
 }
 ```
 
-## Peer Dependency
+## Peer dependencies
 
-- **Prettier**: This config requires Prettier version ^3.
+This package requires and assumes you already installed:
+
+```json
+  "peerDependencies": {
+    "prettier": "^3"
+  },
+```
 
 ## License
 
