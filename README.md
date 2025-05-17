@@ -7,11 +7,11 @@
 
 <!-- vim-markdown-toc GFM -->
 
-* [Installation](#installation)
-* [Usage](#usage)
-* [Configuration Details](#configuration-details)
-* [Peer dependencies](#peer-dependencies)
-* [License](#license)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Configuration Details](#configuration-details)
+- [Peer dependencies](#peer-dependencies)
+- [License](#license)
 
 <!-- vim-markdown-toc -->
 
