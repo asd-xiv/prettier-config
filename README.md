@@ -21,6 +21,9 @@
 npm install --save-dev @asd14/prettier-config prettier@^3
 ```
 
+> [!NOTE]  
+> `prettier` is a peerDependency
+
 ## Usage
 
 In your your `.prettierrc`:
@@ -39,6 +42,7 @@ In your your `.prettierrc`:
   "semi": false,
   "singleQuote": false,
   "quoteProps": "consistent",
+  "embeddedLanguageFormatting": "off",
   "jsxSingleQuote": false,
   "trailingComma": "es5",
   "bracketSpacing": true,
