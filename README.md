@@ -10,7 +10,6 @@
 - [Installation](#installation)
 - [Usage](#usage)
 - [Configuration Details](#configuration-details)
-- [Peer dependencies](#peer-dependencies)
 - [License](#license)
 
 <!-- vim-markdown-toc -->
@@ -51,16 +50,6 @@ In your your `.prettierrc`:
   "proseWrap": "always",
   "endOfLine": "lf"
 }
-```
-
-## Peer dependencies
-
-This package requires and assumes you already installed:
-
-```json
-  "peerDependencies": {
-    "prettier": "^3"
-  },
 ```
 
 ## License
