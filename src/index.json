@@ -6,6 +6,7 @@
   "semi": false,
   "singleQuote": false,
   "quoteProps": "consistent",
+  "embeddedLanguageFormatting": "off",
   "jsxSingleQuote": false,
   "trailingComma": "es5",
   "bracketSpacing": true,
