@@ -20,17 +20,17 @@
     "----UTIL": "",
     "prepare": "git config --local core.hooksPath .githook",
     "---BUILD": "",
-    "prerelease:local": "[ -f package-lock.json ] || npm install --no-workspaces --package-lock-only",
+    "prerelease:local": "[ -f package-lock.json ] || echo 'No package-lock.json found, run `npm install` first' && exit 1",
     "release:local": "semantic-release --no-ci"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^21.2.3",
+    "@commitlint/config-conventional": "^21.2.3",
+    "@semantic-release/git": "^11.0.1",
+    "conventional-changelog-conventionalcommits": "^10.4.1",
+    "semantic-release": "^25.0.9"
   },
   "peerDependencies": {
     "prettier": "^3"
-  },
-  "devDependencies": {
-    "@commitlint/cli": "^21.0.1",
-    "@commitlint/config-conventional": "^21.0.1",
-    "@semantic-release/git": "^10.0.1",
-    "conventional-changelog-conventionalcommits": "^9.3.1",
-    "semantic-release": "^25.0.3"
   }
 }
