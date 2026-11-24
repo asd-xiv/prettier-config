@@ -24,10 +24,10 @@
     "release:local": "semantic-release --no-ci"
   },
   "devDependencies": {
-    "@asd14/semantic-release-config": "^1.0.1",
-    "@commitlint/cli": "^21.2.3",
-    "@commitlint/config-conventional": "^21.2.3",
-    "semantic-release": "^25.0.9"
+    "@asd14/semantic-release-config": "^2.0.0",
+    "@commitlint/cli": "^21.2.4",
+    "@commitlint/config-conventional": "^21.2.4",
+    "semantic-release": "^26.0.1"
   },
   "peerDependencies": {
     "prettier": "^3"
